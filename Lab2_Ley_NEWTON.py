@@ -484,4 +484,7 @@ dibujar_sistema(250, 250)
 # EJECUTAR
 # =========================================================
 
-ventana.mainloop()
+try:
+    ventana.mainloop()
+except KeyboardInterrupt:
+    ventana.destroy()
