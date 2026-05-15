@@ -1,2 +1,2 @@
-jupyter-desktop-server
+jupyter-remote-desktop-proxy
 websockify
